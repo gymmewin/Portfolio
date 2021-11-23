@@ -1,4 +1,27 @@
 body {
    background-color: Black;
    color: White;
+   text-align: center;
+}
+
+/* ===== header ===== */
+#profilepic {
+   width: 40%;
+   border: 3px solid white;
+   border-radius: 50%;
+}
+
+/* ===== footer ===== */
+footer{
+   text-align: center;
+   height: 70px;
+   padding-bottom: 15px;
+}
+
+p{
+   margin-bottom: 3px;
+}
+
+.icons{
+   width: 35px;
 }
