@@ -1,14 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand&display=swap');
+
 body {
-   background-color: Black;
-   color: White;
+   background-color: snow;
+   color: black;
    text-align: center;
+   font-family: 'Quicksand';
 }
 
 /* ===== header ===== */
 #profilepic {
    width: 40%;
-   border: 3px solid white;
+   border: 3px solid black;
    border-radius: 50%;
+}
+
+/* ===== main ===== */
+.projects {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-column-gap: 10px;
+}
+.websiteImages {
+   width: 600px;
+   max-width: 100%;
+}
+
+.techused {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.techIcons {
+   height: 80px;
+   width: 120px;
+   margin: 2px;
+   border: 1px solid black;
 }
 
 /* ===== footer ===== */
