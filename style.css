@@ -9,7 +9,7 @@ body {
 }
 
 a {
-   color: Black;
+   color: dodgerblue;
    text-decoration: none;
 }
 
@@ -34,12 +34,28 @@ nav {
 
 /* ===== header ===== */
 #profilepic {
-   width: 35%;
+   width: 25%;
    border: 3px solid black;
    border-radius: 50%;
 }
 
 /* ===== main ===== */
+.left{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.live{
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.repo {
+   text-decoration: underline;
+   margin-bottom: 0;
+}
+
 .description{
    display: grid;
    align-content: center;
@@ -56,6 +72,7 @@ nav {
 .websiteImages {
    width: 600px;
    max-width: 100%;
+   border: 2px solid grey;
 }
 
 .techused {
